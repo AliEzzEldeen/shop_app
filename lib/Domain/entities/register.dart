@@ -20,7 +20,7 @@ class Register {
 class RegisterData {
   final String? email;
   final String? name;
-  final int? phone;
+  final String? phone;
   final int? id;
   final String? image;
   final String? token;

@@ -42,6 +42,15 @@ dependencies:
   get_it: ^7.6.4
   flutter_bloc: ^8.1.3
   provider: ^6.0.5
+  responsive_sizer: ^3.2.0
+  flutter_svg: ^2.0.9
+  flutter_easyloading: ^3.0.5
+  shared_preferences: ^2.2.2
+  carousel_slider: ^4.2.1
+  dots_indicator: ^3.0.0
+  dot_navigation_bar: ^1.0.2
+  cached_network_image: ^3.3.0
+
 
 dev_dependencies:
   flutter_test:
@@ -66,10 +75,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
+  assets:
+    - assets/images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -81,17 +88,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/PoppinsBold.ttf
+        - asset: assets/Fonts/PoppinsItalic.ttf
+        - asset: assets/Fonts/PoppinsBoldItalic.ttf
+        - asset: assets/Fonts/PoppinsRegular.ttf
+          style: italic
+  #
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

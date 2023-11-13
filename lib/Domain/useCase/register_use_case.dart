@@ -4,7 +4,6 @@ import 'package:shop_app/Core/UseCase/base_use_case.dart';
 import 'package:shop_app/Core/error/failure.dart';
 import 'package:shop_app/Domain/Repository/base_register_repo.dart';
 import 'package:shop_app/Domain/entities/register.dart';
-import 'package:shop_app/Domain/useCase/register_use_case.dart';
 
 class RegisterUseCase extends BaseUsecase<Register, SignUpParameters> {
   final BaseRegisterRepo baseRegisterRepo;
