@@ -23,7 +23,7 @@ class MyDio {
     dio.options.headers = {
       "lang": MyShared.getCurrentLanguage(),
       // "Accept": "application/json",
-      "Authorization": "Token ${MyShared.getString(key: MySharedKeys.apiToken)}",
+      "Authorization": MyShared.getString(key: MySharedKeys.apiToken),
     };
     return await dio.get(endPoint);
   }

@@ -3,6 +3,7 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shop_app/Core/Styles/color.dart';
 import 'package:shop_app/Core/Utils/app_svg.dart';
 
+// ignore: must_be_immutable
 class AppTextField extends StatefulWidget {
   AppTextField({
     Key? key,
